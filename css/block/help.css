@@ -1,0 +1,51 @@
+.help {
+    background: #1C1A1A;
+    height: 610px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.help__cnt {
+    text-align: center;
+}
+
+.help__cnt__title {
+    width: 500px;
+    color: #FFF;
+    text-align: center;
+    font-family: TT Norms;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.help__cnt__text {
+    margin-top: 30px;
+    color: #FFF;
+    text-align: center;
+    font-family: TT Norms;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 140% */
+}
+
+.help__cnt button {
+    margin-top: 80px;
+    padding: 30px 70px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.00);
+    background: linear-gradient(104deg, #2452B8 1.59%, #2967E0 52.71%, #2452B8 96.91%), #1A4AA1;
+    box-shadow: 0px 3.526px 20px 0px #151515;
+}
+
+.help__cnt__btn {
+    color: #FFF;
+
+    font-family: TT Norms;
+    font-size: 16px;
+    font-style: normal;
+}
