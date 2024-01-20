@@ -1,6 +1,9 @@
+.dealer {
+    position: relative;
+}
+
 .dealer__cnt {
     display: flex;
-    margin-bottom: 150px;
 }
 
 .dealer__left {
@@ -41,7 +44,13 @@
     line-height: normal;
 }
 
+.dealer__right {
+    position: relative;
+    margin-top: 200px;
+}
+
 .dealer__right__img {
+  margin-top: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,7 +58,7 @@
     height: 470px;
     border-radius: 10px;
     background: #1C1A1A;
-    margin-top: 10%;
+    
 }
 
 .dealer__right__img img {
@@ -66,16 +75,19 @@
     font-weight: 400;
     line-height: normal;
     margin-left: 50%;
-    padding-top: 267px;
+    
 }
 
-.dealer__right {
-    position: relative;
-}
+
 
 .dealer__right__red__line {
-    right: -11.5%;
+    height: 100%;
     position: absolute;
-    width: 999px;
-    height: 840px;
+    bottom: 0;
+    right: -8%;
+}
+
+.dealer__bg {
+    width: 100%;
+    position: absolute;
 }
