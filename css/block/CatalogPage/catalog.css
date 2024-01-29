@@ -1,0 +1,93 @@
+.catalog {
+    margin-bottom: 80px;
+}
+
+.catalog__cnt h2 {
+    color: #1C1A1A;
+    text-align: center;
+    font-family: "TT Norms";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120px;
+    /* 240% */
+    margin-top: 120px;
+}
+
+.catalog__cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.catalog__card {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 10px;
+    border: 1px solid #ECECEC;
+    margin-bottom: 10px;
+}
+
+.catalog__card__title {
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    color: #1C1A1A;
+    font-family: "TT Norms";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.catalog__card__name {
+    color: #86898D;
+    font-family: "TT Norms";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.catalog__card__price {
+    padding-left: 40px;
+    color: #1C1A1A;
+    font-family: "TT Norms";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.catalog__card__btn {
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 70px;
+    color: #FFF;
+    text-align: center;
+    font-family: "TT Norms";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.00);
+    background: linear-gradient(104deg, #2452B8 1.59%, #2967E0 52.71%, #2452B8 96.91%), #1A4AA1;
+}
+
+.catalog__card__more {
+    color: #F9443B;
+    font-family: "TT Norms";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}

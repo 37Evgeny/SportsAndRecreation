@@ -7,3 +7,8 @@
 @import url("./block/news.css");
 @import url("./block/meaningful.css");
 @import url("./block/footer.css");
+@import url("./block/CatalogPage/infoCP.css");
+@import url("./block/CatalogPage/catalog.css");
+@import url("./block/CatalogPage/range.css");
+@import url("./block/CatalogPage/constructive.css");
+@import url("./block/CatalogPage/gallery.css");

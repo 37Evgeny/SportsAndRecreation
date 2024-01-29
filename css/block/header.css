@@ -42,7 +42,7 @@
     line-height: normal;
 }
 
-.header__bottom {
+.header__bottom{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -91,4 +91,14 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.header__bottom__nav {
+    color: #1C1A1A;
+    font-family: TT Norms;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
 }

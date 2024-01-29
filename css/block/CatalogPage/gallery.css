@@ -1,0 +1,97 @@
+.gallery__cnt {
+    margin-top: 30px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 323px 323px 323px 323px;
+}
+
+.gallery__cnt img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.item2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+} 
+
+.item4 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+} 
+
+.item7 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.item8 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.gallery__text__block__title {
+    margin-top: 110px;
+    color: #1C1A1A;
+font-family: "TT Norms";
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 120px; /* 240% */
+}
+
+.gallery__text__block__text {
+    display: flex;
+    margin-top: 50px;
+    gap: 120px;
+}
+.gallery__text__block__text__left {
+    width: 589px;
+    color: #1C1A1A;
+font-family: "TT Norms";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+
+.gallery__text__block__text__right {
+    width: 595px;
+    color: #1C1A1A;
+font-family: "TT Norms";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+
+.gallery__text__block__more {
+    width: 130px;
+    margin-top: 60px;
+    margin-bottom: 124px;
+    color: #F9443B;
+font-family: "TT Norms";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border-bottom: dashed;
+}

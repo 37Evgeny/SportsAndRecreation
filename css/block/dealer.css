@@ -1,5 +1,7 @@
 .dealer {
     position: relative;
+    margin-bottom: 25px;
+  
 }
 
 .dealer__cnt {
@@ -21,7 +23,6 @@
     font-style: normal;
     font-weight: 700;
     line-height: 60px;
-    /* 120% */
 }
 
 .dealer__left p {
@@ -50,7 +51,7 @@
 }
 
 .dealer__right__img {
-  margin-top: 70px;
+    margin-top: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,7 +59,7 @@
     height: 470px;
     border-radius: 10px;
     background: #1C1A1A;
-    
+
 }
 
 .dealer__right__img img {
@@ -75,12 +76,11 @@
     font-weight: 400;
     line-height: normal;
     margin-left: 50%;
-    
+
 }
 
-
-
 .dealer__right__red__line {
+    opacity: 0.7;
     height: 100%;
     position: absolute;
     bottom: 0;

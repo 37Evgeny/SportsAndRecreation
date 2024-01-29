@@ -1,0 +1,134 @@
+.infoCP {
+    position: relative;
+    height: 830px;
+}
+
+.infoCP__bg {
+    position: absolute;
+}
+
+.infoCP__cnt {
+    position: relative;
+
+}
+
+.infoCP__top {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    gap: 60px;
+}
+
+.infoCP__title {
+    width: 800px;
+    color: #FFF;
+    font-family: "TT Norms";
+    font-size: 70px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 90px;
+    /* 128.571% */
+}
+
+.infoCP__btn {
+    max-width: 140px;
+    padding: 30px 70px;
+    color: #FFF;
+    text-align: center;
+    font-family: "TT Norms";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.00);
+    background: linear-gradient(101deg, rgba(255, 77, 66, 0.00) -7.47%, #FF4D42 49.87%, rgba(255, 77, 66, 0.00) 106.03%), #CD2A22;
+    box-shadow: 0px 3.526px 8.814px 0px rgba(246, 98, 88, 0.15) inset;
+}
+
+.infoCP__cnt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.infoCP__botton {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.infoCP__bottom__replace {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 5px;
+}
+
+.infoCP__replce__vertical {
+    height: 100px;
+    color: #FFF;
+    font-family: "TT Norms";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    transform: rotate(-90deg);
+}
+
+.infoCP__replace__num {
+    height: 130px;
+    color: #FFF;
+    font-family: "TT Norms";
+    font-size: 140px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.infoCP__replace__text {
+    width: 100px;
+    color: #FFF;
+    font-family: "TT Norms";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.infoCP__bottom__all {
+    width: 100%;
+}
+
+.infoCP__bottom__all ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.infoCP__bottom__all ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 20px;
+    color: #FFF;
+    text-align: center;
+    font-family: "TT Norms";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.infoCP__line {
+    bottom: 0;
+    position: absolute;
+    height: 300px;
+    width: 1920px;
+    background-color: #1C1A1A;
+    opacity: 0.6;
+}
